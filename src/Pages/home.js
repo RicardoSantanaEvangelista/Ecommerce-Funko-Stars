@@ -7,12 +7,23 @@ import Card from '../components/Card';
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
-      marginTop: '5px',
+      marginBottom: "0px",
     },
+
     paper: {
-      padding: theme.spacing(2),
-      textAlign: 'center'
+        marginTop: "-3%",
+        padding: "20px",
+        width: "100%",
+        textAlign: 'center',
+        alignItems: "center",
+        justifyContent: "center",
+        alignSelf: "center",
     },
+
+    h4:{
+        color: "orange",
+    },
+
   }));
 
 const HomePage = () => {
@@ -48,15 +59,15 @@ const HomePage = () => {
         <Grid container spacing={3} className={classes.root}>
             <Grid item xs={3}>
                 <Paper className={classes.paper}>
-                    <Typography variant='h5'>
+                    <Typography variant='h4' className={classes.h4}>
                         Categorias
                     </Typography>
                     <List>
                         {category.map(
                             category => {
                                 return (
-                                    <Item
-                                        key = {category.id} 
+                                    <Item 
+                                        key = {category.id}
                                         name= {category.name}
                                         details={count[category.name]}
                                     />
@@ -66,7 +77,7 @@ const HomePage = () => {
                     </List>
                 </Paper>
             </Grid>
-            <Grid container xs={9} spacing={3} className={classes.root}>
+            <Grid container xs={9} spacing={1} className={classes.root}>
                 {products.map(item => {
                     return(
                         <Card

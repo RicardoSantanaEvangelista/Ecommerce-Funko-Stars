@@ -5,7 +5,7 @@ import Contatos from './Pages/contato';
 
 const MainRoutes = () => {
     return(
-        <Routes>
+        <Routes >
             <Route
                 path="/"
                 element={<HomePage />}
