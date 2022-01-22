@@ -18,9 +18,9 @@ const Card = ({ product, children }) => {
     return(
         <Grid item xs={3}>
             <Paper className={classes.paper}>
-                <Grid container direction='column'>
+                <Grid container direction='column' style={{height:"300px"}}>
                     <Grid item>
-                    <img width="140px" src={product.image} alt={product.name_product}/>
+                    <img width="100px" height="150px" src={product.image} alt={product.name_product}/>
                     <Typography variant='h6'>
                         {children}
                     </Typography>
