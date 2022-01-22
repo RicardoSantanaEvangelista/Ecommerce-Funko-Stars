@@ -1,11 +1,11 @@
 <h1  align="center">STAR FUNKO POP</h1>
 <h1  align="center">E-commerce de funko pop de Star Wars</h1>
-<h2  align="center">E-commerce desntinado ao publico de Star Wars, com os melhores Funkos !</h2> 
+<h2  align="center">E-commerce destinado ao publico de Star Wars, com os melhores Funkos !</h2> 
 
 <br>
 
 <p align="center">
-    E-commerce proposto lá no Bootcamp da DIO no Inter Frontend Developer. Desafio proposto @Nathally Souza, consumindo sua API no Back-end. com o Front-end já implementado e concluido consumindo uma API feita pela instrutora para listar as mensagens e feedback dos usuários na tela de contatos e para mostrar como o Front e o Back se conectam na prática.
+    E-commerce proposto lá no Bootcamp da DIO no Inter Frontend Developer. Desafio proposto pela instrutora @Nathally Souza, consumindo a API no Back-end. Com o Front-end consumindo uma API feita pela instrutora para listar as mensagens e feedback dos usuários na tela de contatos e para mostrar como o Front e o Back se conectam na prática.
 </p>
 
 ##
