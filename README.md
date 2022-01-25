@@ -18,5 +18,3 @@
     <img align="center" alt="BootsTrap" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
     </p>
 </div>
-
-<h3  align="center" >Em fase de desenvolvimento !</h3>
